@@ -1,0 +1,20 @@
+# Cursor 配置（用户级别配置，不同电脑不同）
+.cursor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.idea/
+
+# 环境变量和敏感文件
+.env
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 其他
+*.log

@@ -39,10 +39,11 @@ def main():
         messages.append(response)
 
 def test():
+    # 他们之间是相互兼容的
     chat_ds=ChatOpenAI(
         model="deepseek-chat",
         temperature=0.7,
-        base_url="https://api.deepseek.com/api/v3/",
+        base_url="https://api.deepseek.com",
         api_key=api_key
     )
     response = chat_ds.invoke("你是谁")
